@@ -1,0 +1,272 @@
+
+> ukrainanyheter@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.0
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1399ms
+ ○ Compiling /en ...
+ ✓ Compiled /en in 1287ms (349 modules)
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 1535ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 292ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 250ms
+ ✓ Compiled in 178ms (349 modules)
+ ✓ Compiled in 88ms (349 modules)
+ ✓ Compiled in 58ms (224 modules)
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 164ms
+ ✓ Compiled / in 96ms (353 modules)
+ GET / 307 in 110ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 247ms
+ ✓ Compiled in 171ms (349 modules)
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 300ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 237ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 245ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 261ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 238ms
+ ✓ Compiled /sv in 126ms (353 modules)
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 192ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 176ms
+ ✓ Compiled in 214ms (353 modules)
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /sv 200 in 280ms
+ ✓ Compiled in 170ms (353 modules)
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /sv 200 in 256ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /sv 200 in 235ms
+ ✓ Compiled in 135ms (353 modules)
+ ✓ Compiled in 124ms (353 modules)
+ ✓ Compiled in 175ms (353 modules)
+ ✓ Compiled in 103ms (353 modules)
+ ✓ Compiled / in 56ms (357 modules)
+ GET / 307 in 67ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 255ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 236ms
+ ✓ Compiled in 157ms (353 modules)
+ ✓ Compiled in 150ms (353 modules)
+ ✓ Compiled in 146ms (353 modules)
+ ✓ Compiled in 102ms (353 modules)
+ ✓ Compiled / in 54ms (357 modules)
+ GET / 307 in 68ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 278ms
+ ✓ Compiled in 123ms (355 modules)
+ ✓ Compiled in 72ms (355 modules)
+ ✓ Compiled in 71ms (355 modules)
+ ✓ Compiled in 111ms (355 modules)
+ ✓ Compiled in 39ms (227 modules)
+ ✓ Compiled in 37ms (227 modules)
+ ✓ Compiled / in 67ms (359 modules)
+ GET / 307 in 80ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 234ms
+ ✓ Compiled in 43ms (229 modules)
+ ✓ Compiled in 213ms (355 modules)
+ ✓ Compiled / in 36ms (359 modules)
+ GET / 307 in 43ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 249ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 168ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 185ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 167ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 184ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 178ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 191ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 156ms
+ ✓ Compiled /admin/signin in 79ms (363 modules)
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 191ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 157ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 171ms
+ ✓ Compiled /[lang]/category/[category] in 76ms (367 modules)
+ GET /_next/data/development/en/category/war.json?lang=en&category=war 200 in 220ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/politics") is 393 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/politics.json?lang=en&category=politics 200 in 73ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/social") is 813 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/social.json?lang=en&category=social 200 in 71ms
+ GET /_next/data/development/en/category/tech.json?lang=en&category=tech 200 in 20ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/social") is 813 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/social.json?lang=en&category=social 200 in 82ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/politics") is 393 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/politics.json?lang=en&category=politics 200 in 47ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/culture") is 524 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/culture.json?lang=en&category=culture 200 in 44ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/uncategorised") is 425 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/uncategorised.json?lang=en&category=uncategorised 200 in 44ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/politics") is 393 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/politics.json?lang=en&category=politics 200 in 45ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 160ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 169ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 169ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 186ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 180ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 161ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 165ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/politics") is 393 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/politics.json?lang=en&category=politics 200 in 47ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 155ms
+ ✓ Compiled /[lang]/articles/[slug] in 129ms (361 modules)
+ GET /_next/data/development/sv/articles/article-1769168932757.json?lang=sv&slug=article-1769168932757 200 in 184ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 160ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/social") is 813 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/social.json?lang=en&category=social 200 in 62ms
+ GET /_next/data/development/en/category/war.json?lang=en&category=war 200 in 20ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/politics") is 393 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/politics.json?lang=en&category=politics 200 in 43ms
+ ✓ Compiled /en in 55ms (363 modules)
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en.json 200 in 164ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 158ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 163ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 163ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 160ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 162ms
+ ✓ Compiled in 264ms (357 modules)
+ ✓ Compiled / in 50ms (361 modules)
+ GET / 307 in 62ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 227ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 154ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en.json 200 in 158ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 151ms
+ ✓ Compiled /[lang]/category/[category] in 43ms (363 modules)
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/social") is 813 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/social.json?lang=en&category=social 200 in 60ms
+ ✓ Compiled in 146ms (357 modules)
+ ✓ Compiled /en in 50ms (359 modules)
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en.json 200 in 173ms
+Warning: data for page "/sv" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/sv.json 200 in 168ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/social") is 813 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/social.json?lang=en&category=social 200 in 72ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en.json 200 in 156ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/social") is 813 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/social.json?lang=en&category=social 200 in 63ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/social") is 813 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en/category/social 200 in 137ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/social") is 813 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/social.json?lang=en&category=social 200 in 87ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/culture") is 524 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/culture.json?lang=en&category=culture 200 in 53ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/politics") is 393 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en/category/politics.json?lang=en&category=politics 200 in 55ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /_next/data/development/en.json 200 in 161ms
+Warning: data for page "/[lang]/category/[category]" (path "/en/category/social") is 813 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en/category/social 200 in 107ms

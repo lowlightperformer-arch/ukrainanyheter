@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-01-23T00:00:00Z",
+  "root": "/Users/alex/Desktop/dev/ukrainanyheter",
+  "totalFiles": 117,
+  "package": {
+    "name": "ukrainanyheter",
+    "version": "0.1.0",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "next": "14.2.0",
+      "react": "18.2.0",
+      "react-dom": "18.2.0"
+    }
+  },
+  "files": [
+    "pages/_app.tsx",
+    "pages/api/admin/sessions.ts",
+    "pages/admin/signin.tsx",
+    "pages/admin/dashboard.tsx",
+    "pages/admin/login.tsx",
+    "pages/admin/sessions.tsx",
+    "pages/404.tsx",
+    "pages/index.tsx",
+    "data/articles.json",
+    "postcss.config.js",
+    "tsconfig.json",
+    "package.json",
+    "package-lock.json",
+    "components/LanguageSwitcher.tsx",
+    "components/Header.tsx",
+    "components/Layout.tsx",
+    "components/Footer.tsx",
+    "components/ArticleCard.tsx",
+    "styles/globals.css",
+    "test_file.txt",
+    "README.md",
+    "next-env.d.ts",
+    ".next/* (build artifacts)"
+  ]
+}

@@ -1,0 +1,475 @@
+
+> ukrainanyheter@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.0
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1524ms
+ ○ Compiling /en ...
+ ✓ Compiled /en in 1232ms (349 modules)
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 1464ms
+ ✓ Compiled in 145ms (259 modules)
+ ✓ Compiled in 100ms (209 modules)
+ ✓ Compiled in 69ms (209 modules)
+ ✓ Compiled in 132ms (259 modules)
+ ✓ Compiled in 41ms (209 modules)
+ ✓ Compiled in 45ms (209 modules)
+ ✓ Compiled /en in 229ms (349 modules)
+ ⨯ Error: Cannot find module './chunks/vendor-chunks/next.js'
+Require stack:
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at t.f.require (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:1391)
+    at /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:864
+    at Array.reduce (<anonymous>)
+    at t.e (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:843)
+    at Array.map (<anonymous>) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/en'
+}
+ ✓ Compiled /_error in 339ms (351 modules)
+ GET /en 500 in 645ms
+ for requested module:
+./components/ArticleCard.tsx
+ ⨯ ./components/ArticleCard.tsx
+Error: 
+  [31mx[0m Unexpected token `article`. Expected jsx identifier
+    ,-[[36;1;4m/Users/alex/Desktop/dev/ukrainanyheter/components/ArticleCard.tsx[0m:13:1]
+ [2m13[0m |   const img = article.featuredImage || article.image || ''
+ [2m14[0m |   const isCompact = !!article.compact
+ [2m15[0m |   return (
+ [2m16[0m |     <article className={"article-card" + (isCompact ? " compact" : "")}>
+    : [31;1m     ^^^^^^^[0m
+ [2m17[0m |       {img ? (
+ [2m18[0m |         <div className={"card-media" + (isCompact? ' small':'')} style={{backgroundImage:`url(${img})`}}>
+ [2m19[0m |           <div className="card-badge">{article.category || 'News'}</div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/ArticleCard.tsx
+ ⨯ ./components/ArticleCard.tsx
+Error: 
+  [31mx[0m Unexpected token `article`. Expected jsx identifier
+    ,-[[36;1;4m/Users/alex/Desktop/dev/ukrainanyheter/components/ArticleCard.tsx[0m:13:1]
+ [2m13[0m |   const img = article.featuredImage || article.image || ''
+ [2m14[0m |   const isCompact = !!article.compact
+ [2m15[0m |   return (
+ [2m16[0m |     <article className={"article-card" + (isCompact ? " compact" : "")}>
+    : [31;1m     ^^^^^^^[0m
+ [2m17[0m |       {img ? (
+ [2m18[0m |         <div className={"card-media" + (isCompact? ' small':'')} style={{backgroundImage:`url(${img})`}}>
+ [2m19[0m |           <div className="card-badge">{article.category || 'News'}</div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/ArticleCard.tsx
+ ⨯ ./components/ArticleCard.tsx
+Error: 
+  [31mx[0m Unexpected token `article`. Expected jsx identifier
+    ,-[[36;1;4m/Users/alex/Desktop/dev/ukrainanyheter/components/ArticleCard.tsx[0m:13:1]
+ [2m13[0m |   const img = article.featuredImage || article.image || ''
+ [2m14[0m |   const isCompact = !!article.compact
+ [2m15[0m |   return (
+ [2m16[0m |     <article className={"article-card" + (isCompact ? " compact" : "")}>
+    : [31;1m     ^^^^^^^[0m
+ [2m17[0m |       {img ? (
+ [2m18[0m |         <div className={"card-media" + (isCompact? ' small':'')} style={{backgroundImage:`url(${img})`}}>
+ [2m19[0m |           <div className="card-badge">{article.category || 'News'}</div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/ArticleCard.tsx
+ ○ Compiling / ...
+ ⨯ ./components/ArticleCard.tsx
+Error: 
+  [31mx[0m Unexpected token `article`. Expected jsx identifier
+    ,-[[36;1;4m/Users/alex/Desktop/dev/ukrainanyheter/components/ArticleCard.tsx[0m:13:1]
+ [2m13[0m |   const img = article.featuredImage || article.image || ''
+ [2m14[0m |   const isCompact = !!article.compact
+ [2m15[0m |   return (
+ [2m16[0m |     <article className={"article-card" + (isCompact ? " compact" : "")}>
+    : [31;1m     ^^^^^^^[0m
+ [2m17[0m |       {img ? (
+ [2m18[0m |         <div className={"card-media" + (isCompact? ' small':'')} style={{backgroundImage:`url(${img})`}}>
+ [2m19[0m |           <div className="card-badge">{article.category || 'News'}</div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/ArticleCard.tsx
+ GET / 500 in 1069ms
+ GET / 500 in 4ms
+ ⨯ ./components/ArticleCard.tsx
+Error: 
+  [31mx[0m Unexpected token `article`. Expected jsx identifier
+    ,-[[36;1;4m/Users/alex/Desktop/dev/ukrainanyheter/components/ArticleCard.tsx[0m:13:1]
+ [2m13[0m |   const img = article.featuredImage || article.image || ''
+ [2m14[0m |   const isCompact = !!article.compact
+ [2m15[0m |   return (
+ [2m16[0m |     <article className={"article-card" + (isCompact ? " compact" : "")}>
+    : [31;1m     ^^^^^^^[0m
+ [2m17[0m |       {img ? (
+ [2m18[0m |         <div className={"card-media" + (isCompact? ' small':'')} style={{backgroundImage:`url(${img})`}}>
+ [2m19[0m |           <div className="card-badge">{article.category || 'News'}</div>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./components/ArticleCard.tsx
+ ✓ Compiled /_error in 170ms (359 modules)
+ ✓ Compiled in 43ms (223 modules)
+ ✓ Compiled / in 37ms (355 modules)
+ GET / 307 in 53ms
+ ✓ Compiled /en in 33ms (359 modules)
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 325ms
+ ✓ Compiled /404 in 444ms (363 modules)
+ ⨯ Error: Cannot find module './chunks/vendor-chunks/next.js'
+Require stack:
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at t.f.require (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:1391)
+    at /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:864
+    at Array.reduce (<anonymous>)
+    at t.e (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:843)
+    at Array.map (<anonymous>) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './chunks/vendor-chunks/next.js'
+Require stack:
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at t.f.require (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:1391)
+    at /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:864
+    at Array.reduce (<anonymous>)
+    at t.e (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:843)
+    at Array.map (<anonymous>) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ ⨯ Error: Cannot find module './chunks/vendor-chunks/next.js'
+Require stack:
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at t.f.require (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:1391)
+    at /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:864
+    at Array.reduce (<anonymous>)
+    at t.e (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:843)
+    at Array.map (<anonymous>) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET /_next/static/chunks/main.js 500 in 466ms
+ GET /_next/static/chunks/pages/_app.js 500 in 450ms
+ GET /_next/static/chunks/react-refresh.js 500 in 396ms
+ ⨯ Error: Cannot find module './chunks/vendor-chunks/next.js'
+Require stack:
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at t.f.require (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:1391)
+    at /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:864
+    at Array.reduce (<anonymous>)
+    at t.e (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:843)
+    at Array.map (<anonymous>) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET /.well-known/appspecific/com.chrome.devtools.json 500 in 6ms
+Warning: data for page "/en" is 2.15 MB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+ GET /en 200 in 229ms
+ GET / 307 in 6ms
+ ⨯ Error: Cannot find module './chunks/vendor-chunks/next.js'
+Require stack:
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at t.f.require (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:1391)
+    at /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:864
+    at Array.reduce (<anonymous>)
+    at t.e (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:843)
+    at Array.map (<anonymous>) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET /_next/static/chunks/main.js 500 in 5ms
+ ⨯ Error: Cannot find module './chunks/vendor-chunks/next.js'
+Require stack:
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at t.f.require (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:1391)
+    at /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:864
+    at Array.reduce (<anonymous>)
+    at t.e (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:843)
+    at Array.map (<anonymous>) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET /_next/static/chunks/pages/_app.js 500 in 5ms
+ ⨯ Error: Cannot find module './chunks/vendor-chunks/next.js'
+Require stack:
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js
+- /Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js
+- /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1421:15)
+    at /Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1059:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1064:22)
+    at Module._load (node:internal/modules/cjs/loader:1227:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1504:12)
+    at mod.require (/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at t.f.require (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:1391)
+    at /Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:864
+    at Array.reduce (<anonymous>)
+    at t.e (/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js:1:843)
+    at Array.map (<anonymous>) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/webpack-runtime.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/.next/server/pages/_document.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/require.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/load-components.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/build/utils.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/alex/Desktop/dev/ukrainanyheter/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET /_next/static/chunks/react-refresh.js 500 in 6ms
+ GET /en 200 in 227ms
