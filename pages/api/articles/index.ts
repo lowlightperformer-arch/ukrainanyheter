@@ -1,6 +1,15 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { readArticles, writeArticles, Article } from '../../../lib/articles'
 import { v4 as uuidv4 } from 'uuid'
+import { sendError, sendMethodNotAllowed } from '../../../lib/apiUtils'
+
+export const config = {
+  api: {
+    bodyParser: {
+      sizeLimit: '25mb'
+    }
+  }
+}
 
 function checkAdmin(req: NextApiRequest){
   // prefer cookie-based session `admin_auth=1` set by /api/admin/login
@@ -25,7 +34,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse){
   }
 
   if(req.method === 'POST'){
-    if(!checkAdmin(req)) return res.status(401).json({ error: 'unauthorized' })
+    if(!checkAdmin(req)) return sendError(res, 401, { error: 'unauthorized', code: 'unauthorized', message: 'Authentication required' })
     const body = req.body as Partial<Article>
     const all = readArticles()
     const id = uuidv4()
@@ -43,7 +52,13 @@ export default function handler(req: NextApiRequest, res: NextApiResponse){
       status: body.status||'draft',
       createdAt: now,
       publishedAt: body.publishedAt || (body.status==='published'?now:undefined),
-      author: body.author||'Admin'
+      updatedAt: now,
+      author: body.author||'Admin',
+      imageCredit: body.imageCredit||'',
+      imageAlt: body.imageAlt||'',
+      topic: body.topic||'',
+      meta_title: body.meta_title||'',
+      meta_description: body.meta_description||''
     }
     all.unshift(a)
     writeArticles(all)
@@ -51,5 +66,5 @@ export default function handler(req: NextApiRequest, res: NextApiResponse){
   }
 
   res.setHeader('Allow', 'GET,POST')
-  res.status(405).end('Method Not Allowed')
+  return sendMethodNotAllowed(res, 'GET,POST')
 }
